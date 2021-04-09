@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+<h3 style="color:orange"> Welcome Boss!</h3>
+    <body style="background-color: black">
+        <br>
+        <p style="color:white">What would you like to do?</p>
+        <form action="viewemployees" method="get">
+        	<input type="submit" value="View All Employees">
+        </form>
+        <br><br>
+        <form action="ChangeStatus.html" method="get">
+        	<input type="submit" value="Select Request">
+        </form>
+        <br><br>
+      	<form action="allpending" method="get">
+        	<input type="submit" value="Pending Requests">
+        </form>
+        <br><br>
+        <form action="allresolved" method="get">
+        	<input type="submit" value="Resolved Requests">
+        </form>
+        <br><br><br>
+        <form action="logout" method="post" class="btn btn-outline-primary btn-lg pull-right">
+        	<input type="submit" value="Logout">
+        </form>
+        <button onclick="viewemployees">View All</button>
+    </body>
+</html>
