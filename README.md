@@ -12,4 +12,4 @@ Technologies used: Java 1.8, Servlets, JDBC, SQL, HTML/CSS, Bootstrap
 
 Environment: Tomcat, PostgreSQL
 
-How to set up: Open "" file and run on server to begin to simulation. For Employee access use username mscott2 with the password iLovePaper. For Manager access use username bgates1 with the password iAmRich. 
+How to set up: Open LoginPage.java file inside the src/main/java folder and run on server to begin to simulation. For Employee access use username mscott2 with the password iLovePaper. For Manager access use username bgates1 with the password iAmRich. 
